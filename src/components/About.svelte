@@ -1,14 +1,4 @@
-<script>
-  export let padding;
-  let className;
-  export { className as class };
-</script>
-
-<div
-  class="bg-red-300 {padding === 'small' ? 'px-2 py-3' : ''} {padding ===
-  'medium'
-    ? 'px-5 py-6'
-    : ''} {className || ''}"
->
-  Test 2
+<div class="bg-red-300 px-2 py-3">
+  <h1>About page</h1>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam libero nulla, blandit in placerat in, dictum in massa. Morbi dignissim neque lacus, sit amet pulvinar augue fermentum at. Etiam pellentesque imperdiet mi sed dapibus. Etiam luctus augue enim, sed gravida magna dictum sed. Fusce non eros justo.</p>
 </div>
